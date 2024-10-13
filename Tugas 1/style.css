@@ -1,0 +1,61 @@
+/* Resetting body styles */
+body {
+    background-color: #5c5cbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling the calculator container */
+  .calculator {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #3c3c4c;
+  }
+  
+  /* Styling the display section */
+  .display {
+    background-color: #1c1c28;
+    color: white;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 60px;
+    overflow-x: auto;
+  }
+  
+  /* Styling the buttons container */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+  }
+  
+  /* Styling individual buttons */
+  button {
+    font-size: 1.5rem;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5e5e6e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover and active states for buttons */
+  button:hover {
+    background-color: #6a6a7a;
+  }
+  
+  button:active {
+    background-color: #81818f;
+  }
+  
