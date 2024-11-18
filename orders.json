@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "customerName": "Dio",
+        "address": "Jln Sulfat",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "customerName": "dio anugrah",
+        "address": "Jln Lama",
+        "quantity": 1
+    }
+]

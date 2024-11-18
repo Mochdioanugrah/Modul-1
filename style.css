@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f8f8;
-    color: #f2eded; /* Mengubah warna teks agar kontras dengan latar belakang */
+    background-color: #ffffff;
+    color: #ffffff; /* Mengubah warna teks agar kontras dengan latar belakang */
 }
 
 header {
@@ -27,6 +27,11 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;  
 }
 
 .logo img {
@@ -57,10 +62,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-.cart-icon a {
-    color: #fff;
-    text-decoration: none;
-}
+
 
 main {
     margin-top: 100px; /* Prevent content from being hidden behind the header */
@@ -85,7 +87,8 @@ main {
 .menu-section h2 {
     font-size: 60px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* Kurangi jarak di bawah */
+    margin-top: -50px; /* Naikkan teks dengan margin negatif */
     letter-spacing: 2px;
     font-family: 'Georgia', serif;
 }
@@ -111,7 +114,7 @@ main {
     color: #fff;
 }
 
-.order-now-btn {
+.Lihat-Menu-btn {
     background-color: #e58f17;
     color: #fff;
     padding: 15px 30px;
@@ -134,4 +137,159 @@ footer {
 footer p {
     margin: 5px 0;
     font-size: 14px;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* Form Section */
+.form-container {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Table Section */
+.table-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #000000;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody tr:hover {
+    background: #f1f1f1;
+}
+
+table .btn {
+    padding: 5px 10px;
+}
+
+table .btn-edit {
+    background: #28a745;
+    color: #fff;
+}
+
+table .btn-edit:hover {
+    background: #218838;
+}
+
+table .btn-delete {
+    background: #dc3545;
+    color: #fff;
+}
+
+table .btn-delete:hover {
+    background: #c82333;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 20px;
 }
